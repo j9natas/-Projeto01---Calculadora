@@ -14,11 +14,9 @@ import java.awt.event.ActionEvent;
 import java.awt.Color;
 
 public class Calculadora extends JFrame {
-	// VARIAVEIS
 
-	/**
-	 * 
-	 */
+
+	
 	private static final long serialVersionUID = 1L;
 	double numero1;
 	double numero2;
@@ -44,9 +42,7 @@ public class Calculadora extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+	
 	public Calculadora() {
 		setForeground(new Color(0, 0, 0));
 		setBackground(new Color(0, 128, 192));
@@ -83,7 +79,7 @@ public class Calculadora extends JFrame {
 		JButton btnSoma = new JButton("+");
 		btnSoma.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// SOMA
+				
 				numero1 = Double.parseDouble(txtPantalla.getText());
 				txtPantalla.setText("");
 				;
@@ -98,7 +94,7 @@ public class Calculadora extends JFrame {
 		JButton btn3 = new JButton("3");
 		btn3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// NUMERO3
+				
 
 				String IngreseNumero = txtPantalla.getText() + btn3.getText();
 				txtPantalla.setText(IngreseNumero);
@@ -111,7 +107,7 @@ public class Calculadora extends JFrame {
 		JButton btn2 = new JButton("2");
 		btn2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// NUMERO2
+				
 
 				String IngreseNumero = txtPantalla.getText() + btn2.getText();
 				txtPantalla.setText(IngreseNumero);
@@ -124,7 +120,7 @@ public class Calculadora extends JFrame {
 		JButton btn1 = new JButton("1");
 		btn1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// NUMERO 1
+				
 
 				String IngreseNumero = txtPantalla.getText() + btn1.getText();
 				txtPantalla.setText(IngreseNumero);
@@ -137,7 +133,7 @@ public class Calculadora extends JFrame {
 		JButton btn4 = new JButton("4");
 		btn4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// NUMERO 4
+				
 
 				String IngreseNumero = txtPantalla.getText() + btn4.getText();
 				txtPantalla.setText(IngreseNumero);
@@ -176,7 +172,7 @@ public class Calculadora extends JFrame {
 		JButton btnSub = new JButton("-");
 		btnSub.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// SUBTRAÇÃO
+				
 
 				numero1 = Double.parseDouble(txtPantalla.getText());
 				txtPantalla.setText("");
@@ -193,7 +189,7 @@ public class Calculadora extends JFrame {
 		JButton btn7 = new JButton("7");
 		btn7.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// NUMERO 7
+				
 
 				String IngreseNumero = txtPantalla.getText() + btn7.getText();
 				txtPantalla.setText(IngreseNumero);
@@ -206,7 +202,7 @@ public class Calculadora extends JFrame {
 		JButton btn8 = new JButton("8");
 		btn8.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// NUMERO 8
+				
 
 				String IngreseNumero = txtPantalla.getText() + btn8.getText();
 				txtPantalla.setText(IngreseNumero);
@@ -219,7 +215,7 @@ public class Calculadora extends JFrame {
 		JButton btn9 = new JButton("9");
 		btn9.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// NUMERO 9
+				
 
 				String IngreseNumero = txtPantalla.getText() + btn9.getText();
 				txtPantalla.setText(IngreseNumero);
@@ -233,7 +229,7 @@ public class Calculadora extends JFrame {
 		JButton btnMult = new JButton("x");
 		btnMult.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// MULTIPLICAÇÃO
+				
 
 				numero1 = Double.parseDouble(txtPantalla.getText());
 				txtPantalla.setText("");
@@ -308,7 +304,7 @@ public class Calculadora extends JFrame {
 		JButton btnDiv = new JButton("/");
 		btnDiv.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// DIVISÃO
+			
 				numero1 = Double.parseDouble(txtPantalla.getText());
 				txtPantalla.setText("");
 				;
