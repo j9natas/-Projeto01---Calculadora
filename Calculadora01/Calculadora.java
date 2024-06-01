@@ -26,9 +26,7 @@ public class Calculadora extends JFrame {
 	private JPanel contentPane;
 	private JTextField txtPantalla;
 
-	/**
-	 * Launch the application.
-	 */
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -146,7 +144,7 @@ public class Calculadora extends JFrame {
 		JButton btn5 = new JButton("5");
 		btn5.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// NUMERO5
+				
 
 				String IngreseNumero = txtPantalla.getText() + btn5.getText();
 				txtPantalla.setText(IngreseNumero);
@@ -159,7 +157,7 @@ public class Calculadora extends JFrame {
 		JButton btn6 = new JButton("6");
 		btn6.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// NUMERO 6
+				
 
 				String IngreseNumero = txtPantalla.getText() + btn6.getText();
 				txtPantalla.setText(IngreseNumero);
@@ -251,7 +249,7 @@ public class Calculadora extends JFrame {
 		JButton btnZero = new JButton("0");
 		btnZero.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// NUMERO ZERO
+			
 
 				String IngreseNumero = txtPantalla.getText() + btnZero.getText();
 				txtPantalla.setText(IngreseNumero);
